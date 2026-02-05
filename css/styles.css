@@ -1,0 +1,121 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+  background: radial-gradient(circle at top left, #7a7474 0%, #fad0c4 99%, #c4b6b2 100%);
+  min-height: 100vh;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: transparent; 
+}
+.nav-left, .nav-center, .nav-right {
+    flex: 1;
+}
+.nav-center {
+    text-align: center;
+}
+.nav-center h1 a {
+    text-decoration: none;
+    color: black;
+}
+.home-btn {
+    text-decoration: none;
+    color: black;
+    border: 1.5px solid black;
+    padding: 8px 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+.home-btn:hover {
+    background-color: black;
+    color: white;
+}
+.border
+{
+    border: 1px solid black;
+}
+.Recipes {
+    display: flex;
+    justify-content: center; 
+    gap: 30px;             
+    padding: 50px;
+    flex-wrap: wrap;       
+
+}
+.recipe-link {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ff9a9e;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.recipe-link:hover {
+    background-color: #fecfef;
+}
+.card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 350px;         
+    text-align: center;     
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
+.card-img img {
+    width: 100%;            
+    height: 300px;
+    object-fit: cover;      
+    border-radius: 8px;
+    margin: 15px 0;         
+}
+
+.recipe-btn {
+    background-color: #ff9a9e;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.recipe-btn:hover {
+    background-color: #fecfef;
+}
+.cont_recipe {
+    max-width: 800px;    
+    margin: 40px auto;   
+    padding: 0 20px;     
+    line-height: 1.6;    
+}
+.cont_recipe img {
+    display: block;      
+    margin: 20px auto;   
+    border-radius: 8px;  
+    max-width: 100%;     
+    height: auto;        
+}
+
+.cont_recipe h1, .cont_recipe h2 {
+    margin-top: 30px;    
+    margin-bottom: 10px; 
+}
+
+.cont_recipe ul, .cont_recipe ol {
+    margin-left: 20px;   
+}
